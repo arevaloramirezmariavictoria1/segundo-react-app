@@ -1,0 +1,44 @@
+.tarjeta-informativa-w3-card-4 {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+  width: calc((100vw - 120px) * 33 / 100);
+  margin: 10px;
+}
+
+.w3-display-container {
+  position: relative;
+}
+.w3-text-white {
+  color: #fff !important;
+}
+.full {
+  width: 100%;
+}
+
+.w3-xlarge {
+  font-size: 24px !important;
+}
+.w3-display-bottomleft {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.w3-padding {
+  padding: 8px 16px !important;
+}
+
+.w3-row-padding > .w3-third {
+  padding: 0 8px;
+}
+.w3-third {
+  width: 33.33333%;
+}
+.w3-third {
+  float: left;
+  width: 100%;
+}
+.w3-center {
+  text-align: center !important;
+}
+.w3-margin-bottom {
+    margin-bottom: 16px !important;
+  }
