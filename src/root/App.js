@@ -9,6 +9,8 @@ import TarjetasAlbumPaisajes from "../paginas/TarjetasAlbumPaisaje/TarjetasAlbum
 import TarjestasClimaCiudad from "../paginas/TarjetasClimaCiudad/TarjetasClimaCiudad";
 import CarouselPagina from "../paginas/CarouselPagina/CarouselPagina";
 import TarjetaContactoPagina from "../paginas/TarjetaContactoPagina/TarjetaContactoPagina";
+import TarjetaContactoLlamadaPagina from "../paginas/TarjetaContactoLlamadaPagina/TarjetaContactoLLamadaPagina";
+
 
 const App = () => {
   return (
@@ -37,6 +39,9 @@ const App = () => {
             <li>
               <Link to="/tarjetacontactopagina">Tarjeta Contacto Pagina</Link>
             </li>
+            <li>
+              <Link to="/tarjetacontactollamadapagina">Tarjeta Contacto Llamada Pagina</Link>
+            </li>
           </ul>
         </nav>
         <Switch>
@@ -60,6 +65,9 @@ const App = () => {
           </Route>
           <Route path="/tarjetacontactopagina">
            <TarjetaContactoPagina/>
+          </Route>
+          <Route path="/tarjetacontactollamadapagina">
+            <TarjetaContactoLlamadaPagina/>
           </Route>
         </Switch>
       </div>
