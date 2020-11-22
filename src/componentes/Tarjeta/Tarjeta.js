@@ -1,12 +1,11 @@
 import React from "react";
-import "./Tarjeta.css";
+import { TarjetaContainerStyled } from "./styles.js";
 
 const Tarjeta = (props) => {
   return (
-    <div className={`w3-panel ${props.tipo}`}>
+    <TarjetaContainerStyled>
       <p>{props.titulo}</p>
-    </div>
+    </TarjetaContainerStyled>
   );
-
 };
 export default Tarjeta;
