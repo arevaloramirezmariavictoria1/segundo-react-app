@@ -9,8 +9,8 @@ import TarjetasAlbumPaisajes from "../paginas/TarjetasAlbumPaisaje/TarjetasAlbum
 import TarjestasClimaCiudad from "../paginas/TarjetasClimaCiudad/TarjetasClimaCiudad";
 import CarouselPagina from "../paginas/CarouselPagina/CarouselPagina";
 import TarjetaContactoPagina from "../paginas/TarjetaContactoPagina/TarjetaContactoPagina";
-import TarjetaContactoLlamadaPagina from "../paginas/TarjetaContactoLlamadaPagina/TarjetaContactoLLamadaPagina";
-
+import TarjetaContactoLlamadaPagina from "../paginas/TarjetaContactoLlamadaPagina/TarjetaContactoLlamadaPagina";
+import FormInformacionPersonal from "../paginas/FormInformacionPersonal/FormInformacionPersonal";
 
 const App = () => {
   return (
@@ -42,6 +42,9 @@ const App = () => {
             <li>
               <Link to="/tarjetacontactollamadapagina">Tarjeta Contacto Llamada Pagina</Link>
             </li>
+            <li>
+              <Link to="/forminformacionpersonal">Form Informacion Personal</Link>
+            </li>
           </ul>
         </nav>
         <Switch>
@@ -68,6 +71,9 @@ const App = () => {
           </Route>
           <Route path="/tarjetacontactollamadapagina">
             <TarjetaContactoLlamadaPagina/>
+          </Route>
+          <Route path="/forminformacionpersonal">
+            <FormInformacionPersonal/>
           </Route>
         </Switch>
       </div>
