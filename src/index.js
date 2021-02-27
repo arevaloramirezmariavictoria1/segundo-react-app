@@ -1,16 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
 /* import "./assets/css/bootstrap.css"; */
 import "bootstrap/dist/css/bootstrap.css";
-import App from './root/App.js';
-import * as serviceWorker from './serviceWorker';
-
+import Home from "./paginas/Home/Home";
+import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Home />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want your app to work offline and load faster, you can change
