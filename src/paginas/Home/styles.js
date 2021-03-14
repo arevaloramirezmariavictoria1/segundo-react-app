@@ -43,6 +43,7 @@ export const ContentStyled = styled.div`
   padding: 20px;
   width: 70%;
   background-color: #f1f1f1;
+  overflow:hidden;
   @media (max-width: 600px) {
     width: 100%;
     height: auto;

@@ -36,6 +36,11 @@ import ImagenesConFormas from "../ImagenesConFormas/ImagenesConFormas";
 import Contenido from "../Contenido/Contenido";
 import ContenidoHorizontalUnoPagina from "../ContenidoHorizontalUnoPagina/ContenidoHorizontalUnoPagina";
 import VidrioPaginas from "../VidrioPaginas/VidrioPaginas";
+import ListaCuadriculadaAvanzada from "../ListaCuadriculaAvanzada/ListaCuadriculaAvanzada";
+import Parallax from "../Parallax/Parallax"
+import Formulario from "../Formulario/Formulario";
+import FormularioMejoradoV1 from "../FormularioMejoradoV1/FormularioMejoradoV1";
+import FoxBoxGalleryPagina from "../FlexBoxGalleryPagina/FlexBoxGalleryPagina";
 const Home = () => {
   return (
     <Router>
@@ -131,10 +136,27 @@ const Home = () => {
               <li>
                 <Link to="/vidriopaginas">Vidrio paginas</Link>
               </li>
+              <li>
+                <Link to="listacuadriculadaavanzada">
+                  Lista Cuadriculada Avanzada
+                </Link>
+              </li>
+              <li>
+                <Link to="/parallax">Parallax</Link>
+              </li>
+              <li>
+                <Link to="/formulario">Formulario</Link>
+              </li>
+              <li>
+                <Link to="/formulariomejoradov1">Formulario Mejorado V1</Link>
+              </li>
+              <li>
+                <Link to="/foxboxgallerypagina">Fox Box Gallery Pagina</Link>
+              </li>
             </ul>{" "}
           </NavStyled>
           <ContentStyled>
-            {" "}
+            {""}
             <Switch>
               <Route path="/basicas">
                 <TarjetasBasicas />
@@ -214,6 +236,21 @@ const Home = () => {
               <Route path="/vidriopaginas">
                 <VidrioPaginas />
               </Route>
+              <Route path="/listacuadriculadaavanzada">
+                <ListaCuadriculadaAvanzada />
+              </Route>
+              <Route path="/parallax">
+                <Parallax/>
+              </Route>
+              <Route path="/formulario">
+                <Formulario/>
+              </Route>
+              <Route path="/formulariomejoradov1">
+                <FormularioMejoradoV1/>
+              </Route>
+              <Route path="/foxboxgallerypagina">
+                <FoxBoxGalleryPagina/>
+           </Route>
             </Switch>
           </ContentStyled>
         </SectionStyled>
