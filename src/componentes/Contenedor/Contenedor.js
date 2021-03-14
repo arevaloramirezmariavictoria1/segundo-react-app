@@ -1,13 +1,13 @@
 import React from "react";
-import "./Contenedor.css";
+import { ContenedorContainer } from "./styles.js";
 
 const Contenedor = (props) => {
   return (
-    <div className={`w3-container`}>
+    <ContenedorContainer>
       <h2>{props.titulo}</h2>
       <p>{props.mensaje}</p>
       {props.children}
-    </div>
+    </ContenedorContainer>
   );
 };
 export default Contenedor;

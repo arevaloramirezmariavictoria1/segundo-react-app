@@ -1,5 +1,4 @@
 import React from "react"
-import Tarjeta from "../Tarjeta/Tarjeta";
 import "./TarjetaShadow.css"
 
 const TarjetaShadow = (props) => {
